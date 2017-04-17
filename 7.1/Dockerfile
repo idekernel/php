@@ -5,7 +5,8 @@
 #
 
 #FROM debian:jessie
-FROM debian@sha256:52af198afd8c264f1035206ca66a5c48e602afb32dc912ebf9e9478134601ec4
+#FROM debian@sha256:52af198afd8c264f1035206ca66a5c48e602afb32dc912ebf9e9478134601ec4
+FROM idekernel/kernel
 
 # persistent / runtime deps
 ENV PHPIZE_DEPS \
